@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Apple IR Receiver",
+        "description": "Select the Apple IR receiver (hidraw device) to use.",
+        "data": {
+          "path": "Device"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure Apple IR Receiver",
+        "description": "Select the hidraw device for the receiver, e.g. if its /dev/hidraw* path has changed.",
+        "data": {
+          "path": "Device"
+        }
+      }
+    },
+    "abort": {
+      "no_devices_found": "No Apple IR receiver found via hidraw. Make sure the receiver is connected/passed through and /dev/hidraw* is accessible.",
+      "already_configured": "Device is already configured",
+      "reconfigure_successful": "Re-configuration was successful"
+    }
+  }
+}

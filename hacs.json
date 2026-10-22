@@ -1,0 +1,7 @@
+{
+  "name": "Apple IR Receiver",
+  "render_readme": true,
+  "domains": ["apple_ir"],
+  "iot_class": "Local Push",
+  "homeassistant": "2026.4.0"
+}
